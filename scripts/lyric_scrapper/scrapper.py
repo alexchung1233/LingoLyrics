@@ -6,7 +6,6 @@ import os
 BeautifulSoup = bs4.BeautifulSoup
 
 
-
 def get_genius_urls(filename: str) -> list[str]:
 
     song_urls_path =  f"{os.path.dirname(os.path.realpath(__file__))}/{filename}"
